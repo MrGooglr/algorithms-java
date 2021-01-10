@@ -19,7 +19,7 @@ public class InsertionSort {
 
         System.out.println();
 
-        // Calling selectionSorter
+        // Calling insertionSorter
 
         final int[] sortedArray = sortArrayUsingInsertionSort(array);
 
