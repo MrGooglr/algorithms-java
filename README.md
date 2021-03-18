@@ -17,4 +17,12 @@ Those algorithms that preserve the order after sorting are the ***Stable*** whil
 
 > Stable sorting algos are preferable.
 
+==============================================
 
+## Slight explaination over algos:
+
+1. *Bubble Sort* : Simple swapping of elements till we bubble up the largest/smallest element from the array of elements.
+1. *Selection Sort* : Iteration used to select the largest/smallest element in array and swapping happens at the last only.
+1. *Insertion Sort* : The whole array is divided in sorted and unsorted part and we keep interting largest/smallest element from unsorted partion to sorted partition.
+1. *Shell Sort* : Is alternate version of *insertion sort* / Goal is to reduce shifting. Named over its inventor "Donald Shell". This algo do some work till gap value > 1 and after that it is same as *Insertion sort*.
+   The major part though is to choose Gap Value. and that depends on the situation.
